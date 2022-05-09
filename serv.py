@@ -2,6 +2,7 @@ import nacl.utils as pynacl
 import nacl.secret as pysecret
 import socket
 from Crypto.Cipher import ChaCha20
+from nacl.signing import SigningKey
 
 def getRand() -> str:
     bs = pynacl.random(size=128)
@@ -25,7 +26,8 @@ if __name__ == "__main__":
     f = open(filename, "wb")
     data = c.recv(1024)
     encryptedData = cipher.encrypt(data)
-    f.write(encryptedData)
+    signedData = SigningKey.generate().sign(encryptedData)
+    f.write(signedData)
     
     c.close()
     s.close()
