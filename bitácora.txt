@@ -1,0 +1,7 @@
+[12.05.2022-11:22:24] [INFO] "a" ha iniciado sesión.
+[15.05.2022-18:06:05] [INFO] "taqueches" ha iniciado sesión.
+[15.05.2022-18:24:57] [WARN] "usuario" ha intentado iniciar sesión.
+[15.05.2022-18:25:09] [INFO] "fido" ha iniciado sesión.
+[15.05.2022-19:02:55] [INFO] "a" ha iniciado sesión.
+[16.05.2022-11:09:18] [WARN] "juan" ha intentado iniciar sesión.
+[16.05.2022-11:09:28] [INFO] "taqueches" ha iniciado sesión.
